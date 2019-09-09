@@ -1,4 +1,13 @@
 module.exports = {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: './tsconfig.json',
+  },
+  env: {
+    browser: true,
+    es6: true,
+    jest: true,
+  },
   extends: [
     'airbnb',
     'plugin:react/recommended',
@@ -7,23 +16,32 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   plugins: ['react', '@typescript-eslint', 'prettier'],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    project: './tsconfig.json',
-  },
   rules: {
     'prettier/prettier': 'error',
+
     'no-debugger': 'warn',
-  },
-  env: {
-    browser: true,
-    es6: true,
-    jest: true,
+    'spaced-comment': ['error', 'always', { markers: ['/ <reference'] }],
+    camelcase: 'error',
+    'no-param-reassign': ['error', { props: false }],
+
+    // TypeScript
+    '@typescript-eslint/no-explicit-any': 0,
+    // '@typescript-eslint/indent': ['error', 2],
+    // '@typescript-eslint/prefer-interface': 'off',
+
+    // React
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
+    // 'react/prop-types': 'off',
   },
   settings: {
     react: {
       pragma: 'React',
       version: 'detect',
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
     },
   },
 };
