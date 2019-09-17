@@ -15,7 +15,7 @@ module.exports = {
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
-  plugins: ['react', '@typescript-eslint', 'prettier'],
+  plugins: ['react', '@typescript-eslint', 'prettier', 'react-hooks'],
   rules: {
     'prettier/prettier': 'error',
 
@@ -32,6 +32,10 @@ module.exports = {
     // React
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     // 'react/prop-types': 'off',
+
+    // React-hooks
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   settings: {
     react: {
