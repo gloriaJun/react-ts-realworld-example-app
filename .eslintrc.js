@@ -23,7 +23,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 0,
     // '@typescript-eslint/indent': ['error', 2],
     // '@typescript-eslint/prefer-interface': 'off',
-    "@typescript-eslint/no-angle-bracket-type-assertion": "off",
+    '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
 
     /**
      * React
