@@ -3,7 +3,7 @@ language: node_js
 node_js:
   - "stable"
 
-cache:
+#cache:
   directories:
     - node_modules
 
@@ -12,9 +12,14 @@ branches:
     - master
     - develop
 
+before_install:
+  - npm install -g yarn --cache-min 999999999
+
 install:
-  - npm install
-  - npm run build
+#  - npm install
+#  - npm run build
+  - yarn install
+  - yarn build
 
 deploy:
   provider: pages
