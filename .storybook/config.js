@@ -2,7 +2,7 @@ import { configure, addDecorator } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { withKnobs } from '@storybook/addon-knobs';
 import '@storybook/addon-console';
-// import "./storystyles.css"
+import './storystyles.css';
 
 const req = require.context('../src/components', true, /.stories.tsx?$/);
 
