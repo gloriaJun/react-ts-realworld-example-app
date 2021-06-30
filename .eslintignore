@@ -1,3 +1,10 @@
-node_modules/
-jest.config.js
-setupTests.ts
+node_modules/*
+
+# config files
+*.config.js
+.*rc.js
+# jest-preprocess.js
+
+# test
+# .storybook/
+# coverage/
