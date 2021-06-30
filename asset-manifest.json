@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-ts-realworld-example-app/static/css/main.c1653a8d.chunk.css",
+    "main.js": "/react-ts-realworld-example-app/static/js/main.44a1ead3.chunk.js",
+    "main.js.map": "/react-ts-realworld-example-app/static/js/main.44a1ead3.chunk.js.map",
+    "runtime-main.js": "/react-ts-realworld-example-app/static/js/runtime-main.13b96c6c.js",
+    "runtime-main.js.map": "/react-ts-realworld-example-app/static/js/runtime-main.13b96c6c.js.map",
+    "static/js/2.8dd126f8.chunk.js": "/react-ts-realworld-example-app/static/js/2.8dd126f8.chunk.js",
+    "static/js/2.8dd126f8.chunk.js.map": "/react-ts-realworld-example-app/static/js/2.8dd126f8.chunk.js.map",
+    "index.html": "/react-ts-realworld-example-app/index.html",
+    "static/css/main.c1653a8d.chunk.css.map": "/react-ts-realworld-example-app/static/css/main.c1653a8d.chunk.css.map",
+    "static/js/2.8dd126f8.chunk.js.LICENSE.txt": "/react-ts-realworld-example-app/static/js/2.8dd126f8.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/react-ts-realworld-example-app/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13b96c6c.js",
+    "static/js/2.8dd126f8.chunk.js",
+    "static/css/main.c1653a8d.chunk.css",
+    "static/js/main.44a1ead3.chunk.js"
+  ]
+}
