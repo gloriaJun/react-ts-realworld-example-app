@@ -30,13 +30,13 @@
 
 ## Usage Skill
 
-- TypeScript
-- React v16.x.x
+- TypeScript v4.3.x
+- React v17.x.x
 - React Router v 5.x
-- Redux
-- Redux-saga
-- Storybook
-- Jest
+- emotion v11.x.x
+- Storybook v6.3.x
+- @testing-library/react v12.x.x
+- Jest v
 
 ## Project Structure
 
