@@ -22,7 +22,7 @@
 .idea/
 
 # lock
-yarn.lock
+#yarn.lock
 package.lock.json
 
 npm-debug.log*
