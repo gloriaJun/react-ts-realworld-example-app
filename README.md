@@ -31,12 +31,12 @@
 ## Usage Skill
 
 - TypeScript v4.3.x
+- react-scripts v4.x.x
 - React v17.x.x
 - React Router v 5.x
 - emotion v11.x.x
 - Storybook v6.3.x
 - @testing-library/react v12.x.x
-- Jest v
 
 ## Project Structure
 
