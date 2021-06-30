@@ -1,1 +1,1 @@
-yarn run test
+CI=true yarn run test:ci
