@@ -125,8 +125,11 @@ module.exports = {
     // Override some TypeScript rules just for .js files
     /** story files */
     {
-      files: ['./packages/react/**/*.stories.tsx'],
-      rules: {},
+      files: ['**/*.stories.*'],
+      rules: {
+        'import/exports-last': 'off',
+        'import/no-anonymous-default-export': 'off',
+      },
     },
     // {
     //   files: ['**/*.spec.js', '**/*.spec.ts', '**/.test.js', '**/.test.ts'],
