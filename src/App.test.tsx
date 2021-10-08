@@ -12,5 +12,5 @@ it('renders without crashing', () => {
 
 it('renders welcome message', () => {
   const { getByText } = render(<App />);
-  expect(getByText('Home')).toBeInTheDocument();
+  expect(getByText('HOME')).toBeInTheDocument();
 });
