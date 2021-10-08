@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "outDir": "./dist",
     "target": "es5",
     "module": "esnext",
@@ -20,6 +21,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "exclude": [],
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": []
 }
