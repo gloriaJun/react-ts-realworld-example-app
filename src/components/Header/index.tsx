@@ -1,15 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 import { ROUTES } from '../../constants';
 import { Container } from '../Container';
 import { Logo } from '../Logo';
 import { Navigation } from '../Navigation';
 
-export interface HeaderProps {
-  onClick?: (pathname: string) => void;
-}
+export function Header() {
+  const navigate = useNavigate();
 
-export function Header({ onClick }: HeaderProps) {
+  const handleClick = (pathname: string) => {
+    navigate(pathname);
+  };
+
   return (
     <nav className="navbar navbar-light">
       <Container>
@@ -24,7 +27,7 @@ export function Header({ onClick }: HeaderProps) {
             { id: ROUTES.LOGIN, text: 'Sign in' },
             { id: ROUTES.REGISTER, text: 'Sign up' },
           ]}
-          onClick={onClick}
+          onClick={handleClick}
         />
       </Container>
     </nav>
