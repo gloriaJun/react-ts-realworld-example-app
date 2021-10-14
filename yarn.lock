@@ -6829,7 +6829,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.2.5":
+"classnames@npm:^2.2.5, classnames@npm:^2.3.1":
   version: 2.3.1
   resolution: "classnames@npm:2.3.1"
   checksum: 57d536edede609f81425d24b062d8d720a466565faf1e38d32c881e883920baa71519ac70c7b565e9cd39201fb1c1ff9bdf8aabf8e26544bac481e7924867c83
@@ -16650,6 +16650,7 @@ fsevents@^1.2.7:
     "@types/testing-library__jest-dom": ^5.14.0
     "@typescript-eslint/eslint-plugin": ^4.28.1
     "@typescript-eslint/parser": ^4.28.1
+    classnames: ^2.3.1
     cross-env: ^7.0.3
     eslint: ^7.29.0
     eslint-config-prettier: ^8.3.0
