@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./dist",
+    // "outDir": "./dist",
     "target": "es5",
     "module": "esnext",
     "types": ["@types/jest", "@types/testing-library__jest-dom"],
     "typeRoots": [],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
-    "jsx": "react-jsx",
+    "jsx": "react",
     "sourceMap": true,
     "strict": true,
     "skipLibCheck": true,
@@ -21,6 +21,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["src"],
+  "include": ["src", ".storybook"],
   "exclude": []
 }
