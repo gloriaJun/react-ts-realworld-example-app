@@ -4,11 +4,8 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Icon, iconTypes } from '.';
 
 export default {
-  // title: '/Header',
   component: Icon,
-  argTypes: {
-    backgroundColor: { control: 'color' },
-  },
+  argTypes: {},
 } as ComponentMeta<typeof Icon>;
 
 const Template: ComponentStory<typeof Icon> = (args) => <Icon {...args} />;
