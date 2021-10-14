@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Settings() {
+export function Settings() {
   return <>Settings</>;
 }

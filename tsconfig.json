@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "outDir": "./dist",
     "target": "es5",
     "module": "esnext",
     "types": ["@types/jest", "@types/testing-library__jest-dom"],
@@ -21,6 +20,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": ["src"],
+  "include": ["src", ".storybook"],
   "exclude": []
 }
