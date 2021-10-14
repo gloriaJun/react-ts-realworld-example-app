@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-ts-realworld-example-app/static/css/main.4a4137e4.chunk.css",
+    "main.js": "/react-ts-realworld-example-app/static/js/main.7579b72a.chunk.js",
+    "main.js.map": "/react-ts-realworld-example-app/static/js/main.7579b72a.chunk.js.map",
+    "runtime-main.js": "/react-ts-realworld-example-app/static/js/runtime-main.13b96c6c.js",
+    "runtime-main.js.map": "/react-ts-realworld-example-app/static/js/runtime-main.13b96c6c.js.map",
+    "static/js/2.ecabc688.chunk.js": "/react-ts-realworld-example-app/static/js/2.ecabc688.chunk.js",
+    "static/js/2.ecabc688.chunk.js.map": "/react-ts-realworld-example-app/static/js/2.ecabc688.chunk.js.map",
+    "index.html": "/react-ts-realworld-example-app/index.html",
+    "static/css/main.4a4137e4.chunk.css.map": "/react-ts-realworld-example-app/static/css/main.4a4137e4.chunk.css.map",
+    "static/js/2.ecabc688.chunk.js.LICENSE.txt": "/react-ts-realworld-example-app/static/js/2.ecabc688.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13b96c6c.js",
+    "static/js/2.ecabc688.chunk.js",
+    "static/css/main.4a4137e4.chunk.css",
+    "static/js/main.7579b72a.chunk.js"
+  ]
+}
