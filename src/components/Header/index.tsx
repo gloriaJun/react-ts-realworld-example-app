@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { ROUTES } from '../../constants';
 import { Container } from '../Container';
+import { Logo } from '../Logo';
 import { Navigation } from '../Navigation';
 
 export interface HeaderProps {
@@ -13,9 +13,7 @@ export function Header({ onClick }: HeaderProps) {
   return (
     <nav className="navbar navbar-light">
       <Container>
-        <Link className="navbar-brand" to={ROUTES.HOME}>
-          conduit
-        </Link>
+        <Logo isBrand />
 
         <Navigation
           className="navbar-nav pull-xs-right"
