@@ -6162,12 +6162,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^2.6.1, async@npm:^2.6.2":
+"async@npm:^2.6.2":
   version: 2.6.3
   resolution: "async@npm:2.6.3"
   dependencies:
     lodash: ^4.17.14
   checksum: 5c30ec6f3d64308dd96d56dae16a00a23b9e6278fe8f66492837896d958508698648c59c53457d3fdf05fd04484e16538efeca2be38337cd78df0284e764ab34
+  languageName: node
+  linkType: hard
+
+"async@npm:^3.2.4":
+  version: 3.2.5
+  resolution: "async@npm:3.2.5"
+  checksum: ca5c87f4953495110560c357e1bb22c997f03c31d094173372f134e89356c1e769a0a475156e62aa601dd4cffe934846aac56d344e8b2354f1f680d0df03e57d
   languageName: node
   linkType: hard
 
@@ -9129,10 +9136,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"email-addresses@npm:^3.0.1":
-  version: 3.1.0
-  resolution: "email-addresses@npm:3.1.0"
-  checksum: 657c0cd22f37c459769cca3ea76f4e8048b1d2af774d7ebdcb7039f88b407a22f8db23293a56144239a2fb1fd97ee2b22ef3191afce8b9ce8ae76e23121f4be7
+"email-addresses@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "email-addresses@npm:5.0.0"
+  checksum: 085228db2292a6e0ccff5eaa6404fa9490c43694c63b6fcac1635b8d4580e131847cb10d369396c94a6e53b61074d6e75090ec3a57c28ee5cd7ec1049a841905
   languageName: node
   linkType: hard
 
@@ -10809,13 +10816,13 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"gh-pages@npm:^3.2.3":
-  version: 3.2.3
-  resolution: "gh-pages@npm:3.2.3"
+"gh-pages@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "gh-pages@npm:5.0.0"
   dependencies:
-    async: ^2.6.1
+    async: ^3.2.4
     commander: ^2.18.0
-    email-addresses: ^3.0.1
+    email-addresses: ^5.0.0
     filenamify: ^4.3.0
     find-cache-dir: ^3.3.1
     fs-extra: ^8.1.0
@@ -10823,7 +10830,7 @@ fsevents@^1.2.7:
   bin:
     gh-pages: bin/gh-pages.js
     gh-pages-clean: bin/gh-pages-clean.js
-  checksum: d269bf829d600df3e5fe6cd76bea590a19c788b8135c1e8a653776ca6bf193a132116763bb7de6963e3ec090e1515018f7b774ea16726f1fc45eaed284c39a02
+  checksum: 4789d61a3f0720c2a64f65e1b64d70299a575d1b2d7c75ee77424a53768c6bb03322e6832abf261b3330dff0e7af11339616b4ee0b35dbe9155c419f07a7e891
   languageName: node
   linkType: hard
 
@@ -17285,7 +17292,7 @@ fsevents@^1.2.7:
     eslint-plugin-prettier: ^3.4.0
     eslint-plugin-react: ^7.24.0
     eslint-plugin-react-hooks: ^4.2.0
-    gh-pages: ^3.2.3
+    gh-pages: ^5.0.0
     history: ^5.0.1
     husky: ^6.0.0
     lint-staged: ^11.0.0
